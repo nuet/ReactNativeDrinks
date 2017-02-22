@@ -7,6 +7,8 @@ import {
   View,
   Text,
 } from 'react-native';
+import { observable } from 'mobx';
+
 
 class App extends Component {
   render() {
@@ -25,6 +27,5 @@ const styles = StyleSheet.create({
 		alignItems: 'center',
 	},
 });
-
 
 export default App;
